@@ -146,11 +146,9 @@ Initial testing shows:
 
 ## References
 
-1. Smith, J. (2023). "IoT Applications in Smart Agriculture"
-2. Johnson, M. (2022). "Automated Greenhouse Systems"
-3. Firebase Documentation (2023)
-4. NodeMCU ESP8266 Documentation
-5. Arduino IDE Reference
+1. Firebase Documentation (2023)
+2. NodeMCU ESP8266 Documentation
+3.Arduino IDE Reference
 
 ## Gantt Chart
 
