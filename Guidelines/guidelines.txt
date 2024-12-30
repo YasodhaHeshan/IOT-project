@@ -1,0 +1,26 @@
+Introduction
+
+Internet of things or IoT is a system of connected devices through the internet. It involves mechanical devices, sensors, home appliances, vehicles, etc., apart from desktop, mobile, and laptop. These devices are designed in such a way that they can share data with other devices over the internet. IoT basically provides a platform for devices to interact and collaborate with each other.
+Scenario
+In this course work you are assigned to do a research project to create an IOT application which is useful in our day today life using Nodemcu, Raspberry pi, sensors and so on.
+
+Task 01–Prototype
+
+Create a working prototype for the proposed system using real time components on a
+breadboard or other convenient medium.
+You may use any sensors, Gates and other electronic components as you wish.
+You may use firebase as an online database and develop mobile app using any convenient platform.
+
+Task 02 –Report
+
+Write a report based on your project Report should have,
+• Abstract
+• Acknowledgment
+• Table of Content
+• Table of Figures
+• Introduction
+• Methodology
+• Discussion
+• Future Implementations
+• References
+• Gantt Chart
