@@ -65,6 +65,7 @@ Traditional greenhouse management faces several challenges:
 ## Methodology
 
 ### System Architecture
+![System Architecture](figures/system_architecture.dio.png)
 
 ### Hardware Implementation
 
@@ -83,6 +84,7 @@ The system utilizes the following components:
 - **Water pumps and ventilation fans**: These actuators are responsible for regulating water supply and air circulation within the greenhouse. Water pumps ensure efficient irrigation, while ventilation fans help maintain optimal temperature and humidity levels by promoting air exchange.
 
 ### Software Architecture 
+![Software Architecture](figures/software_architecture.dio.png)
 
 ### Implementation Details
 

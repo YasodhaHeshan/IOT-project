@@ -1,0 +1,9 @@
+graph TD
+    A[NodeMCU ESP8266/ESP32] -->|Temperature & Humidity| B[DHT22 Sensor]
+    A -->|Soil Moisture| C[Soil Moisture Sensor]
+    A -->|Light Intensity| D[LDR Sensor]
+    A -->|Control| E[Relay Module]
+    E -->|Water Supply| F[Water Pump]
+    E -->|Air Circulation| G[Ventilation Fan]
+    A -->|Data Storage| H[Firebase]
+    H -->|Data Access| I[Mobile Application]

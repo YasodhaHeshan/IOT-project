@@ -1,0 +1,9 @@
+graph TD
+    A[Sensor Integration] -->|Data Collection| B[NodeMCU Controller]
+    B -->|Data Processing| C[Control Logic]
+    C -->|Actuator Control| D[Relay Modules]
+    D -->|Control Actions| E[Water Pumps & Ventilation Fans]
+    B -->|Data Sync| F[Firebase Cloud]
+    F -->|Data Storage| G[Database]
+    G -->|Data Access| H[Mobile Application]
+    H -->|User Interface| I[Real-time Monitoring & Control]
