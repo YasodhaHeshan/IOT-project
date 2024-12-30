@@ -180,4 +180,4 @@ Initial testing shows:
 3. Arduino IDE Reference
 
 ## Gantt Chart
-[Grant chart](figures/grant_chart.dio.png)
+![Grant chart](figures/grant_chart.dio.png)
