@@ -148,7 +148,7 @@ Initial testing shows:
 
 1. Firebase Documentation (2023)
 2. NodeMCU ESP8266 Documentation
-3.Arduino IDE Reference
+3. Arduino IDE Reference
 
 ## Gantt Chart
 
