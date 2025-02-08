@@ -47,6 +47,49 @@ The system consists of the following components:
 * **Remote Monitoring:** Access system status and controls from anywhere
 * **Alert System:** Notifications for abnormal conditions or system issues
 
+## Blynk App Setup
+
+To set up the Blynk app for the Smart Greenhouse System, follow these steps:
+
+1. **Download the Blynk App:**
+   - Install the Blynk app from the [App Store](https://apps.apple.com/us/app/blynk-iot/id808760481) or [Google Play](https://play.google.com/store/apps/details?id=cc.blynk).
+
+2. **Create a New Project:**
+   - Open the Blynk app and create a new project.
+   - Enter the project name (e.g., "Smart Greenhouse").
+   - Select the device as "ESP32".
+   - Choose the connection type as "WiFi".
+   - Click "Create".
+
+3. **Add Widgets:**
+   - Add the following widgets to your project:
+     - **Button:** For Fan Control (Virtual Pin V1)
+     - **Button:** For Pump Control (Virtual Pin V0)
+     - **Button:** For LED Control (Virtual Pin V2)
+     - **Button:** For Buzzer Control (Virtual Pin V3)
+     - **Gauge:** For Temperature Display (Virtual Pin V4)
+     - **Gauge:** For Humidity Display (Virtual Pin V5)
+     - **Gauge:** For Soil Moisture Display (Virtual Pin V6)
+     - **Gauge:** For Light Intensity Display (Virtual Pin V7)
+
+4. **Configure Widgets:**
+   - For each button widget, set the mode to "Switch".
+   - For each gauge widget, set the appropriate range based on the sensor data.
+
+5. **Auth Token:**
+   - After creating the project, an Auth Token will be sent to your registered email.
+   - Replace the `BLYNK_AUTH_TOKEN` in the Arduino code with this Auth Token.
+
+6. **Upload the Code:**
+   - Upload the Arduino code to your ESP32 device.
+
+7. **Run the Project:**
+   - Ensure your ESP32 is connected to WiFi.
+   - Open the Blynk app and start the project.
+   - You should now be able to monitor and control your Smart Greenhouse system remotely.
+
+This setup allows you to interact with your Smart Greenhouse system using the Blynk app, providing real-time monitoring and control capabilities.
+
 ## Future Enhancements
 
 * Machine learning for crop-specific optimization
