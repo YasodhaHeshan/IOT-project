@@ -33,11 +33,11 @@ The system consists of the following components:
 
 ## Software and Technologies
 
-* **Programming Languages:** C++ (Arduino), Python (data processing), Flutter (mobile app)
+* **Programming Languages:** C++ (Arduino),Blynk(mobile app)
 * **Cloud Services:** Firebase (Database, Authentication, Cloud Functions)
 * **IoT Protocols:** MQTT for device communication
 * **Development Tools:** Arduino IDE, VS Code, Android Studio
-* **Libraries:** DHT sensor library, Firebase ESP client, PubSubClient
+* **Libraries:** DHT sensor library, Firebase ESP client
 
 ## Key Features
 
