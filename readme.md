@@ -24,7 +24,7 @@ This IoT-based smart greenhouse system provides automated monitoring and control
 
 The system consists of the following components:
 
-* **Sensor Network:** DHT22 (temperature/humidity), soil moisture sensors, light sensors, CO2 sensors
+* **Sensor Network:** DHT22 (temperature/humidity), soil moisture sensors, light sensors
 * **Control Units:** Relay modules for fans, pumps, lights, and heating systems
 * **Main Controller:** NodeMCU/ESP32 for local processing and WiFi connectivity
 * **Cloud Platform:** Firebase for data storage and real-time monitoring
@@ -33,11 +33,11 @@ The system consists of the following components:
 
 ## Software and Technologies
 
-* **Programming Languages:** C++ (Arduino), Python (data processing), Flutter (mobile app)
+* **Programming Languages:** C++ (Arduino),Blynk(mobile app)
 * **Cloud Services:** Firebase (Database, Authentication, Cloud Functions)
 * **IoT Protocols:** MQTT for device communication
 * **Development Tools:** Arduino IDE, VS Code, Android Studio
-* **Libraries:** DHT sensor library, Firebase ESP client, PubSubClient
+* **Libraries:** DHT sensor library, Firebase ESP client, BlynkSimpleEsp32
 
 ## Key Features
 
